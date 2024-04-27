@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ISDCMTomCat">
+    <Resource name="jdbc/YourDataSourceName" auth="Container" type="javax.sql.DataSource"
+               maxActive="100" maxIdle="30" maxWait="10000"
+               username="pr2" password="pr2"
+               driverClassName="org.apache.derby.jdbc.ClientDriver"
+               url="jdbc:derby://localhost:1527/pr2"/>
+</Context>
